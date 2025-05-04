@@ -1,7 +1,7 @@
 # Project-AI
 Đây là một ứng dụng Python giải bài toán 8-Puzzle (Câu đố 8 số) cổ điển bằng cách sử dụng nhiều thuật toán tìm kiếm Trí tuệ Nhân tạo (AI). Ứng dụng có giao diện người dùng đồ họa (GUI) được xây dựng bằng Pygame để người dùng tương tác, trực quan hóa quá trình giải và đánh giá hiệu năng các thuật toán khác nhau.
 
-#Tính Năng
+Tính Năng:
     Bảng Câu Đố 8 Số Tương Tác: Đặt trạng thái ban đầu bằng cách nhấp vào các ô hoặc tạo ngẫu nhiên một bảng có thể giải được.
     Nhiều Thuật Toán AI: Triển khai một loạt các thuật toán tìm kiếm (xem danh sách bên dưới).
     Trực Quan Hóa: Xem câu đố được giải từng bước (hoặc quá trình khám phá đối với một số thuật toán).
