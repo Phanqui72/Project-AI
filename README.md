@@ -1,5 +1,5 @@
 # 8-Puzzle AI Solver với Pygame
-LINK GITHUB: https://github.com/Phanqui72/Project-AI/blob/main
+LINK GITHUB: https://github.com/Phanqui72/Project-AI
 
 Dự án này là một trình giải câu đố 8-puzzle (8-Puzzle) trực quan được triển khai bằng Python sử dụng thư viện Pygame. Nó cho phép người dùng thiết lập một trạng thái 8-Puzzle, chọn từ nhiều thuật toán tìm kiếm AI khác nhau và trực quan hóa quá trình giải đố. Dự án cũng bao gồm chế độ benchmark để so sánh hiệu suất của các thuật toán tìm đường khác nhau.
 
