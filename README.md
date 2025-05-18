@@ -14,7 +14,7 @@ Dự án này là một trình giải câu đố 8-puzzle (8-Puzzle) trực quan
   - [Xem Kết Quả](#xem-kết-quả)
   - [Điều Khiển](#điều-khiển)
   - [Ghi Chú](#ghi-chú)
-- [GIF ghi lại cách hoạt động của các thuật toán](#gif-ghi-lại-các-thuật-toán)
+- [GIF ghi lại cách hoạt động của các thuật toán](#gif-ghi-lại-cách-hoạt-động-của-các-thuật-toán)
 - [Tổng Quan Cấu Trúc Code](#tổng-quan-cấu-trúc-code)
 - [Những Cải Tiến Tiềm Năng](#những-cải-tiến-tiềm-năng)
 
@@ -197,14 +197,59 @@ File mã nguồn chính (`puzzle_solver.py`) được cấu trúc như sau:
   * CÁC THUẬT TOÁN THUỘC NHÓM TÌM KIẾM KHÔNG CÓ THÔNG TIN
     BFS:
     ![Thuat-toan-bfs](https://github.com/user-attachments/assets/f0686795-81f1-4974-b215-c6bb568acbf4)
+    
     DFS:
     ![dfs-_online-video-cutter com_](https://github.com/user-attachments/assets/b3029776-ec84-4b6f-b350-26bd7d4760ff)
+    
     IDDFS:
     ![iddfs (online-video-cutter com)](https://github.com/user-attachments/assets/d293a22f-f515-4107-a8f9-76502a4b1750)
+    
     UCS:
     ![ucs (online-video-cutter com)](https://github.com/user-attachments/assets/0335d5e8-e84a-4cfa-a5ae-2db1efdc2354)
+    
+  * CÁC THUẬT TOÁN THUỘC NHÓM TÌM KIẾM CÓ THÔNG TIN
+    A*:
+    ![a_star-_online-video-cutter com_](https://github.com/user-attachments/assets/0dc8ec7b-9c84-4b07-bc8f-eeaa11c94940)
+    
+    IDA*:
+    ![ida_star (online-video-cutter com)](https://github.com/user-attachments/assets/89aad33d-c960-48bd-94c4-2ba5d5ee6415)
 
+      * CÁC THUẬT TOÁN LOCAL SEARCH
+    Beam Search:
+    ![beam-_online-video-cutter com_](https://github.com/user-attachments/assets/381f5825-0739-439d-9262-713da9ead1a4)
 
+    Simulated Annealing:
+    ![sa (online-video-cutter com)](https://github.com/user-attachments/assets/2f3f901f-1201-42ab-9d72-dde8a63542e2)
+
+    Genetic Algorithm:
+    ![genetic (online-video-cutter com)](https://github.com/user-attachments/assets/61ea98e5-9861-4d49-99db-3633c85c4456)
+
+    Simple hill climbing:
+    ![spl (online-video-cutter com)](https://github.com/user-attachments/assets/6848de4c-b1b8-4873-a3eb-17f315850694)
+
+    Steepest-ascent hill climbing
+    ![stee (online-video-cutter com)](https://github.com/user-attachments/assets/c3a794c0-26a3-4e89-a491-55b4d954e0e1)
+
+    Stochastic hill climbing
+    ![stouch (online-video-cutter com)](https://github.com/user-attachments/assets/a7b0a6ef-1197-4f14-8dc2-b056a3ad0948)
+
+  * CÁC THUẬT TOÁN TÌM KIẾM TRONG MÔI TRƯỜNG PHỨC TẠP
+    AND OR SEARCH:
+    ![abd_or-_online-video-cutter com_](https://github.com/user-attachments/assets/1236d56d-3e1a-4e7a-9f8f-ec2993488a9a)
+
+    BELIEF STATE SEARCH:
+    
+    
+      * CÁC THUẬT TOÁN THUỘC NHÓM CSPs
+    BACKTRACKING:
+    ![backtracking-_online-video-cutter com_](https://github.com/user-attachments/assets/765f684b-2aba-4214-b077-55226e57ea2d)
+
+    BACKTRACKING WITH FORWARD CHECKING:
+    ![backtrack_up-_2_-_online-video-cutter com_](https://github.com/user-attachments/assets/21242255-3601-4c3b-9321-6f5ba5c68f4e)
+
+   * CÁC THUẬT TOÁN THUỘC NHÓM REINFORCEMENT LEARNING
+     Q-LEARING
+    ![Q (online-video-cutter com)](https://github.com/user-attachments/assets/82e123d5-7d01-4f1e-8838-cf30740ee1c8)
 
 ## Những Cải Tiến Tiềm Năng
 
