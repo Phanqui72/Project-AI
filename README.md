@@ -272,7 +272,7 @@ File mã nguồn chính (`puzzle_solver.py`) được cấu trúc như sau:
      
      Q-LEARING
      
-    ![Q (online-video-cutter com)](https://github.com/user-attachments/assets/82e123d5-7d01-4f1e-8838-cf30740ee1c8)
+  ![Q (online-video-cutter com)](https://github.com/user-attachments/assets/82e123d5-7d01-4f1e-8838-cf30740ee1c8)
 
 ## Những Cải Tiến Tiềm Năng
 
