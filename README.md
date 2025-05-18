@@ -196,8 +196,11 @@ File mã nguồn chính (`puzzle_solver.py`) được cấu trúc như sau:
 ## GIF ghi lại cách hoạt động của các thuật toán
   * CÁC THUẬT TOÁN THUỘC NHÓM TÌM KIẾM KHÔNG CÓ THÔNG TIN
 
-![bfs-_online-video-cutter com_](https://github.com/user-attachments/assets/8b0d0e9d-2913-4a7f-bee0-29b4d972eeb0)
 
+![iddfs (online-video-cutter com)](https://github.com/user-attachments/assets/d293a22f-f515-4107-a8f9-76502a4b1750)
+![bfs-_online-video-cutter com_](https://github.com/user-attachments/assets/f0686795-81f1-4974-b215-c6bb568acbf4)
+![dfs-_online-video-cutter com_](https://github.com/user-attachments/assets/b3029776-ec84-4b6f-b350-26bd7d4760ff)
+![ucs (online-video-cutter com)](https://github.com/user-attachments/assets/0335d5e8-e84a-4cfa-a5ae-2db1efdc2354)
 
 
 
