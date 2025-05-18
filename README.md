@@ -1,4 +1,4 @@
-![bfs-_online-video-cutter com_](https://github.com/user-attachments/assets/952b344d-aafa-4846-9c95-86f0401d12f8)# 8-Puzzle AI Solver với Pygame
+# 8-Puzzle AI Solver với Pygame
 
 Dự án này là một trình giải câu đố 8-puzzle (8-Puzzle) trực quan được triển khai bằng Python sử dụng thư viện Pygame. Nó cho phép người dùng thiết lập một trạng thái 8-Puzzle, chọn từ nhiều thuật toán tìm kiếm AI khác nhau và trực quan hóa quá trình giải đố. Dự án cũng bao gồm chế độ benchmark để so sánh hiệu suất của các thuật toán tìm đường khác nhau.
 
@@ -195,12 +195,14 @@ File mã nguồn chính (`puzzle_solver.py`) được cấu trúc như sau:
   
 ## GIF ghi lại cách hoạt động của các thuật toán
   * CÁC THUẬT TOÁN THUỘC NHÓM TÌM KIẾM KHÔNG CÓ THÔNG TIN
-
-
-![iddfs (online-video-cutter com)](https://github.com/user-attachments/assets/d293a22f-f515-4107-a8f9-76502a4b1750)
-![bfs-_online-video-cutter com_](https://github.com/user-attachments/assets/f0686795-81f1-4974-b215-c6bb568acbf4)
-![dfs-_online-video-cutter com_](https://github.com/user-attachments/assets/b3029776-ec84-4b6f-b350-26bd7d4760ff)
-![ucs (online-video-cutter com)](https://github.com/user-attachments/assets/0335d5e8-e84a-4cfa-a5ae-2db1efdc2354)
+    BFS:
+    ![Thuat-toan-bfs](https://github.com/user-attachments/assets/f0686795-81f1-4974-b215-c6bb568acbf4)
+    DFS:
+    ![dfs-_online-video-cutter com_](https://github.com/user-attachments/assets/b3029776-ec84-4b6f-b350-26bd7d4760ff)
+    IDDFS:
+    ![iddfs (online-video-cutter com)](https://github.com/user-attachments/assets/d293a22f-f515-4107-a8f9-76502a4b1750)
+    UCS:
+    ![ucs (online-video-cutter com)](https://github.com/user-attachments/assets/0335d5e8-e84a-4cfa-a5ae-2db1efdc2354)
 
 
 
