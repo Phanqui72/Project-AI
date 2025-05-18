@@ -1,4 +1,4 @@
-# 8-Puzzle AI Solver với Pygame
+![bfs-_online-video-cutter com_](https://github.com/user-attachments/assets/952b344d-aafa-4846-9c95-86f0401d12f8)# 8-Puzzle AI Solver với Pygame
 
 Dự án này là một trình giải câu đố 8-puzzle (8-Puzzle) trực quan được triển khai bằng Python sử dụng thư viện Pygame. Nó cho phép người dùng thiết lập một trạng thái 8-Puzzle, chọn từ nhiều thuật toán tìm kiếm AI khác nhau và trực quan hóa quá trình giải đố. Dự án cũng bao gồm chế độ benchmark để so sánh hiệu suất của các thuật toán tìm đường khác nhau.
 
@@ -6,7 +6,6 @@ Dự án này là một trình giải câu đố 8-puzzle (8-Puzzle) trực quan
 
 - [Tính năng](#tính-năng)
 - [Các Thuật Toán Được Triển Khai](#các-thuật-toán-được-triển-khai)
-- [Các Module Python Chính Được Sử Dụng](#các-module-python-chính-được-sử-dụng)
 - [Yêu Cầu Cài Đặt](#yêu-cầu-cài-đặt)
 - [Cách Chạy](#cách-chạy)
 - [Cách Sử Dụng](#cách-sử-dụng)
@@ -15,6 +14,7 @@ Dự án này là một trình giải câu đố 8-puzzle (8-Puzzle) trực quan
   - [Xem Kết Quả](#xem-kết-quả)
   - [Điều Khiển](#điều-khiển)
   - [Ghi Chú](#ghi-chú)
+- [GIF ghi lại cách hoạt động của các thuật toán](#gif-ghi-lại-các-thuật-toán)
 - [Tổng Quan Cấu Trúc Code](#tổng-quan-cấu-trúc-code)
 - [Những Cải Tiến Tiềm Năng](#những-cải-tiến-tiềm-năng)
 
@@ -65,22 +65,6 @@ Dự án này là một trình giải câu đố 8-puzzle (8-Puzzle) trực quan
 
 6.  **Các Thuật Toán RL**
     *   `Q-Learning` (Thuật toán học tăng cường Q-Learning)
-
-
-## Các Module Python Chính Được Sử Dụng
-
-*   `pygame`: Để tạo giao diện người dùng đồ họa và xử lý sự kiện.
-*   `time`: Để đo thời gian thực thi của thuật toán.
-*   `heapq`: Cho hàng đợi ưu tiên (sử dụng trong UCS, A*, Greedy).
-*   `random`: Để xáo trộn, chọn ngẫu nhiên và tạo trạng thái.
-*   `math`: Cho các hàm toán học (ví dụ: `math.exp` trong Simulated Annealing).
-*   `collections.deque`: Cho hàng đợi hiệu quả (sử dụng trong BFS).
-*   `sys`, `traceback`: Để xử lý lỗi và gỡ lỗi.
-*   `textwrap`: Để xuống dòng văn bản dài trong GUI.
-*   `threading`, `queue`: Để chạy các thuật toán trong luồng riêng biệt và giao tiếp kết quả.
-*   `os`: Để kiểm tra font chữ.
-*   `re`: Để trích xuất thời gian từ văn bản kết quả cho hiển thị trực quan.
-*   `numpy` (trong `q_learning`): Để tính toán thống kê (ví dụ: `np.mean`).
 
 ## Yêu Cầu Cài Đặt
 
@@ -208,6 +192,13 @@ File mã nguồn chính (`puzzle_solver.py`) được cấu trúc như sau:
 7.  **Khối Thực thi Chính (`if __name__ == "__main__":`)**:
     *   Tạo một instance của `PygamePuzzleApp` và gọi phương thức `run()` của nó để khởi động ứng dụng.
     *   Bao gồm xử lý ngoại lệ cơ bản.
+  
+## GIF ghi lại cách hoạt động của các thuật toán
+  * CÁC THUẬT TOÁN THUỘC NHÓM TÌM KIẾM KHÔNG CÓ THÔNG TIN
+    ![thuật toán bfs_](https://github.com/user-attachments/assets/7af10f59-3bc0-4197-a33e-7c4fa22ff700)
+
+
+
 
 ## Những Cải Tiến Tiềm Năng
 
